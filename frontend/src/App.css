@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  display: flex;
+}
+.main{
+  flex: 6;
+  margin : 3px;
+  /* background-color: tomato; */
+}
+.page{
+  padding: 1rem;
+}
+.page-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-header{}
+.page-title{
+  color : rgb(255, 85, 85);
+  font-weight: 700;
+}
+.input:focus {
+  outline: none !important;
+  border:1px solid red !important;
+  box-shadow: 0 0 10px red !important;
+}
